@@ -1,0 +1,11 @@
+# Spatio.Sdk.Model.AgentMessageListResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Messages** | [**List&lt;AgentMessage&gt;**](AgentMessage.md) |  | 
+**Total** | **int** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
