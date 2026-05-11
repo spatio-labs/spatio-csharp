@@ -24,7 +24,7 @@
     <Description>C# SDK for the SpatioAPI. Generated from the official OpenAPI spec.</Description>
     <PackageProjectUrl>https://www.spatio.app/developers/docs/sdk</PackageProjectUrl>
     <RepositoryUrl>https://github.com/spatio-labs/spatio</RepositoryUrl>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>spatio;sdk;api;openapi</PackageTags>
   </PropertyGroup>
   <ItemGroup>
