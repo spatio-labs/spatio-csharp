@@ -1,7 +1,7 @@
 /*
  * SpatioAPI
  *
- * The REST API that owns every resource in your Spatio workspace: notes, sheets, slides, tasks, calendar events, mail, chat, files, and contacts. SpatioMCP wraps this API; Spatio Desktop reads from it. You can call it directly from your own code.  All requests must be authenticated with a Personal Access Token (`Authorization: Bearer pat_...`) or an OAuth 2.1 access token, and use HTTPS.  Official SDKs (MIT, generated from this spec on every release):  - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio/sdk-ts`) - Python: https://github.com/spatio-labs/spatio-py (`pip install spatio-sdk`) - Go: https://github.com/spatio-labs/spatio-go (`go get github.com/spatio-labs/spatio-go`)  This specification is generated from the platform-service Go source on every push to `main`. The spec, not hand-written documentation, is the source of truth: server stubs and SDKs are generated from it, and any drift between the spec and the running service fails CI. 
+ * The REST API that owns every resource in your Spatio workspace: notes, sheets, slides, tasks, calendar events, mail, chat, files, and contacts. SpatioMCP wraps this API; Spatio Desktop reads from it. You can call it directly from your own code.  All requests must be authenticated with a Personal Access Token (`Authorization: Bearer pat_...`) or an OAuth 2.1 access token, and use HTTPS.  Official SDKs (MIT, generated from this spec on every release):  - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio-labs/spatio-ts`) - Python: https://github.com/spatio-labs/spatio-py (`pip install spatio-sdk`) - Go: https://github.com/spatio-labs/spatio-go (`go get github.com/spatio-labs/spatio-go`)  This specification is generated from the platform-service Go source on every push to `main`. The spec, not hand-written documentation, is the source of truth: server stubs and SDKs are generated from it, and any drift between the spec and the running service fails CI. 
  *
  * The version of the OpenAPI document: v1
  * Contact: hello@spatio.app
@@ -34,7 +34,7 @@ namespace Spatio.Sdk.Client
         /// Version of the package.
         /// </summary>
         /// <value>Version of the package.</value>
-        public const string Version = "0.0.1";
+        public const string Version = "0.0.2";
 
         /// <summary>
         /// Identifier for ISO 8601 DateTime Format
@@ -118,7 +118,7 @@ namespace Spatio.Sdk.Client
         public Configuration()
         {
             Proxy = null;
-            UserAgent = WebUtility.UrlEncode("OpenAPI-Generator/0.0.1/csharp");
+            UserAgent = WebUtility.UrlEncode("OpenAPI-Generator/0.0.2/csharp");
             BasePath = "https://api.spatio.app";
             DefaultHeaders = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
@@ -541,7 +541,7 @@ namespace Spatio.Sdk.Client
             report += "    OS: " + System.Environment.OSVersion + "\n";
             report += "    .NET Framework Version: " + System.Environment.Version  + "\n";
             report += "    Version of the API: v1\n";
-            report += "    SDK Package Version: 0.0.1\n";
+            report += "    SDK Package Version: 0.0.2\n";
 
             return report;
         }

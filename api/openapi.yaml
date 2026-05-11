@@ -15,7 +15,7 @@ info:
 
     Official SDKs (MIT, generated from this spec on every release):
 
-    - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio/sdk-ts`)
+    - TypeScript: https://github.com/spatio-labs/spatio-ts (`npm install @spatio-labs/spatio-ts`)
     - Python: https://github.com/spatio-labs/spatio-py (`pip install spatio-sdk`)
     - Go: https://github.com/spatio-labs/spatio-go (`go get github.com/spatio-labs/spatio-go`)
 
